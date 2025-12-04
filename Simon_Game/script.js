@@ -69,7 +69,7 @@ function restart(){
     h2.innerText="Game Over! press any key to start again";
     h2.style.color = "darkred" ;
     setTimeout(function(){
-        h2.innerText = `Your Score is ${score} \n Press any key of Keyboard to start again`;
+        h2.innerText = `Your Score is ${score} \n Press any key of Keyboard or tap on screen to start again`;
         h2.style.color = "lightgreen";
         userSeq = [];
         gameSeq = [];
